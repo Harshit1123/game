@@ -100,7 +100,7 @@ void bar(int z)
  }
 
 
-   /// after
+ 
    for(i=0;i<sz;i++)
     {if(random(2))
      {window(xx[i],yy[i],xx[i],yy[i]+2);
@@ -136,11 +136,6 @@ void bar(int z)
    char ch;
    _setcursortype(_NOCURSOR);
 	    randomize();
-  //  textcolor(15);
-   //  cprintf("\n                                                              \xda\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xbf ");
-// for(int i=0;i<18;i++)
- // cprintf(" ^                                                          \xb3              \xb3 ");
-    // cprintf(" |                                                             \xc0\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xd9 ");
       window(66,3,78,21);
       textcolor(11);
       cprintf("Press X      ");
@@ -155,15 +150,15 @@ void bar(int z)
  cprintf("Press Left,  ");
   cprintf("Right to Move\n");
   textcolor(WHITE);
- // cprintf("\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4 ");
+ 
   cprintf("Status:      ");
-//  cprintf("   Stopped    \n");
- // cprintf("  Playing.. ");
- // cprintf("   Stoped   ");
-   cprintf("Score :      ");
-  //  cprintf("        0   ");
+  cprintf("   Stopped    \n");
+  cprintf("  Playing.. ");
+  cprintf("   Stoped   ");
+  cprintf("Score :      ");
+  cprintf("        0   ");
      getch();
-// return;
+     return;
   int x=0;
   for(int i=0;i<20;i++)
    {
@@ -225,5 +220,5 @@ return;
  }
 
 }
-//getch();
+getch();
   }
