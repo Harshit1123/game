@@ -1,2 +1,1 @@
-# c-game
-Basic game developed in c++
+# snake_game_python
