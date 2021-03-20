@@ -1,1 +1,3 @@
-# snake_game_python
+This repositry consists of projects such as games.
+
+Just download it and enjoy!!!!!!!!!
